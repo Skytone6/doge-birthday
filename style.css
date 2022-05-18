@@ -1,0 +1,83 @@
+* {
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 1.1em;
+    color: #caa40e;
+    text-shadow: 0px 0px 1px #e1b303;
+}
+
+body {
+    background: linear-gradient(#f1da95,#dcc35d);
+}
+
+#doge-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #cb9800;
+    text-shadow: none;
+}
+
+img {
+    border: 10px solid #cb9800;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px gray;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2, h3 {
+    margin: 15px auto;
+}
+
+.gift-cover {
+    width: 500px;
+    height: 300px;
+    margin: 0px auto;
+    background-image: url("gift-wrap.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px grey;   
+}
+
+div {
+    margin-bottom: 75px;
+}
+
+#cool-doge {
+    margin-bottom: 150px;
+}
+
+#shiba-inu:hover{
+    background-image: url("shiba-inu.gif");
+    width: 400px;
+    height: 400px;
+}
+
+#doge-coin:hover{
+    background-image: url("doge-coin.webp");
+}
+
+#much-wow:hover{
+    background-image: url("much-wow.gif");
+    width: 400px;
+    height: 400px;
+}
+
+#doge-stocks:hover{
+    background-image: url("doge-stocks.webp");
+    width: 400px;
+    height: 400px;
+}
+
+#cool-doge:hover{
+    background-image: url("cool-doge.webp");
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
